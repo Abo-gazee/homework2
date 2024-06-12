@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="{{ url_for('static', filename='image.png') }}" alt="Image">
+			</div>
+			<div class="col-md-6">
+				<h1>السؤال الثاني</h1>
+				<p>
+يتضمن مجال الاتصالات العديد من المواضيع المهمة، مثل التواصل والشبكات والاتصالات السلكية واللاسلكية، والإنترنت والتكنولوجيا الحديثة، وغيرها الكثير. ويعد هذا المجال من أهم المجالات التي تؤثر على حياتنا اليومية، حيث تعتمد العديد من الأعمال والمهام والخدمات على الاتصالات وتقنياتها. </p>
+
+				<p><a href="{{ url_for('page2') }}">برمجة</a></p>
+				<p><a href="{{ url_for('page3') }}">خليوي</a></p>
+				<ul>
+  <li>
+    <strong>الاسم:</strong> علاء شهدت مصطفى
+    <br>
+    <strong>الرقم الجامعي:</strong> 1590
+  </li>
+  <li>
+    <strong>الاسم:</strong> علي غازي زيني
+    <br>
+    <strong>الرقم الجامعي:</strong> 1071
+  </li>
+</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
